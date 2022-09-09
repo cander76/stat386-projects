@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Importance of Blogging # Make a title for your blog
+title: Caitlyn Anderson's Blog # Make a title for your blog
 email: caitlynander28@gmail.com # Add your email 
 description: >- # this means to ignore newlines until "baseurl:"
- Why blog?
+ All of Caitlyn Anderson's blog posts
 baseurl: "/stat386-projects" # keep this the same or change it to the name of the repository 
 url: "https://cander76.github.io" #  change this to "https://<your-github-username>.github.io"
 image: "assets/images/image5.jpg"
