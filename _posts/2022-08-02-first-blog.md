@@ -17,19 +17,11 @@ Ggplot is a data visualization package in the tidyverse library of R. This packa
 
 The first thing you want to be sure of is that you have the ggplot package installed into RStudio. The ggplot package is in the tidyverse library. If you do not already have this downloaded, you will need to run the command:
 
-\\\
-
-install.packages(‘tidyverse’) 
-
-\\\
+```install.packages(‘tidyverse’)```
 
 in RStudio. If you already have the package installed, each time you run R, you will need to load the package by running the command:
 
-\\\
-
-library(tidyverse)
-
-\\\
+```library(tidyverse)```
 
 This will load the ggplot package and you are ready to start visualizing!
 
@@ -37,12 +29,10 @@ This will load the ggplot package and you are ready to start visualizing!
 
 Of course, when graphing data, you are going to need a dataset to manipulate and get to the desired output. Ggplot only takes in datasets that are in the form of a data frame. In this example, we will be using the mtcars dataset that is already installed in the tidyverse. There are many datasets that you can install into R, or you can scrape your own data, but that is another lesson for another time. We can view the components of this specific mtcars dataset by using the command: 
 
-///
+```?mtcars```
 
-?mtcars
-
-///
 This will pull up this menu:
+
 
 
 
