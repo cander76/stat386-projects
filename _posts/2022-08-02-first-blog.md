@@ -31,9 +31,43 @@ Of course, when graphing data, you are going to need a dataset to manipulate and
 
 ```?mtcars```
 
-This will pull up this menu:
+Running this command will pull up this menu:
 
+![Figure](https://github.com/cander76/stat386-projects/raw/main/assets/images/mtcars.png)
 
+With this, we can see all of the different variables we can use to put into our plots. In this beginner’s guide, we are only going to make a simple plot using only 3 of the variables.
 
+# Basic Format of a ggplot Statement
 
+With any dataset, the way to format a ggplot command is to call the ggplot function, input the dataset, and choose the variables you would like to visualize using the “mapping = aes” command. You can then add the type of graph you would like. There are many options for this including but not limited to:
+
+-geom_point (scatter plot)
+
+-geom_bar(bar graph)
+
+-geom_smooth (adds line to graph)
+
+-geom_line (for continuous variables)
+
+More examples of formatting can be found here: data-visualization-2.1 (nyu-cdsc.github.io)
+
+When you put this all together, this is what the basic format should look like:
+
+```ggplot(data = <DATASET>, mapping = aes(x = <DESIRED X VARIABLE>, y = <DESIRED Y VARIABLE>)) + geom_<YOUR CHOICE>```
+
+# Real Example
+
+Now let's do a real example from the mtcars dataset! For this example, I am interested in seeing the correlations between 3 variables: weight, mpg, and transmission. To add a 3rd variable, I am going to add “color” to the aes argument and make it discrete so I can easily change the legend. I am also going to add labels to my plot using the labs() command. More of what you can add to this argument can be found using the command 
+
+```?labs```
+
+This is what my code looks like:
+
+``` code ```
+
+This code will result in the plot:
+
+![Figure](https://github.com/cander76/stat386-projects/raw/main/assets/images/GGplot.png)
+
+With this basic knowledge of ggplot, you are ready to go out and visualize your very own datasets. Though these examples may seem simple, they are the building blocks to data visualization. Thanks for reading! Leave a comment below and come back again!
 
