@@ -13,6 +13,9 @@ One of the most crucial parts of data science is data visualization. Sure, we ca
 
 Ggplot is a data visualization package in the tidyverse library of R. This package takes in datasets and allows you to manipulate and graph them based on different areas of interest. It allows you to choose which specific variables of a data set you are interested in, and which type of plot you would like to see. In short, it gives the user a lot of control of what the plot should look like. I really love the freedom that comes with it because you can really take any data set (as long as it is in the form of a dataframe in R) and graph whatever you want with it!
 
+![Figure](https://github.com/cander76/stat386-projects/raw/main/assets/images/ggplot pic.jpg)
+
+
 # One time step:
 
 The first thing you want to be sure of is that you have the ggplot package installed into RStudio. The ggplot package is in the tidyverse library. If you do not already have this downloaded, you will need to run the command:
