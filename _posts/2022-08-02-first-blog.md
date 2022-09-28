@@ -12,7 +12,7 @@ A crucial part of data science is data visualization. Sure, we can look at a lar
 
 # What is ggplot?
 
-Ggplot is a data visualization package in the tidyverse library of R. This package takes in datasets and allows you to manipulate and graph them based on different areas of interest. It allows you to choose which specific variables of a data set you are interested in, and which type of plot you would like to see. In short, it gives the user a lot of control of what the plot should look like. I really love the freedom that comes with it because you can really take any data set (as long as it is in the form of a dataframe in R) and graph whatever you want with it!
+Ggplot is a data visualization package in the tidyverse library of R. This package takes in datasets and allows you to manipulate and graph them based on different areas of interest. It allows you to choose which specific variables of a data set you are interested in and which type of plot you would like to see. In short, it gives the user a lot of control of what the plot should look like. I really love the freedom that comes with it because you can really take any data set (as long as it is in the form of a dataframe in R) and graph whatever you want with it!
 
 ![Figure](https://github.com/cander76/stat386-projects/raw/main/assets/images/graphing.jpg)
 
@@ -31,7 +31,7 @@ This will load the ggplot package and you are ready to start visualizing!
 
 # Datasets
 
-Of course, when graphing data, you are going to need a dataset to manipulate and get to the desired output. Ggplot only takes in datasets that are in the form of a data frame. In this example, we will be using the mtcars dataset that is already installed in the tidyverse. There are many datasets that you can install into R, or you can scrape your own data, but that is another lesson for another time. We can view the components of this specific mtcars dataset by using the command: 
+Of course, when graphing data, you are going to need a dataset to manipulate and get to the desired output. Ggplot only takes in datasets that are in the form of a data frame. In this example, we will be using the mtcars dataset that is already installed in the tidyverse. There are many datasets that you can install into R, or you can scrape your own data, but that is another blog for another time. We can view the components of this specific mtcars dataset by using the command: 
 
 ```?mtcars```
 
@@ -39,11 +39,11 @@ Running this command will pull up this menu:
 
 ![Figure](https://github.com/cander76/stat386-projects/raw/main/assets/images/mtcars.png)
 
-With this, we can see all of the different variables we can use to put into our plots. In this beginner’s guide, we are only going to make a simple plot using only 3 of the variables.
+With this, we can see all of the different variables we can use to put into our plots. In this beginner’s guide, we are going to make a simple plot using only three of the variables.
 
 # Basic Format of a ggplot Statement
 
-With any dataset, the way to format a ggplot command is to call the ggplot function, input the dataset, and choose the variables you would like to visualize using the “mapping = aes” command. You can then add the type of graph you would like. There are many options for this including but not limited to:
+With any dataset, the way to format a ggplot command is to call the ggplot function, input the dataset, and choose the variables you would like to visualize using the “mapping = aes” command. You can then add the type of plot you would like. There are many options for plot type including, but not limited to:
 
 -geom_point (scatter plot)
 
@@ -53,7 +53,7 @@ With any dataset, the way to format a ggplot command is to call the ggplot funct
 
 -geom_line (for continuous variables)
 
-More examples of formatting can be found [here](https://nyu-cdsc.github.io/learningr/assets/data-visualization-2.1.pdf)
+More examples of plot formatting can be found [here](https://nyu-cdsc.github.io/learningr/assets/data-visualization-2.1.pdf)
 
 When you put this all together, this is what the basic format should look like:
 
@@ -61,7 +61,7 @@ When you put this all together, this is what the basic format should look like:
 
 # Real Example
 
-Now let's do a real example from the mtcars dataset! For this example, I am interested in seeing the correlations between 3 variables: weight, mpg, and transmission. To add a 3rd variable, I am going to add “color” to the aes argument and make it discrete so I can easily change the legend. I am also going to add labels to my plot using the labs() command. More of what you can add to this argument can be found using the command 
+Now let's do a real example from the mtcars dataset! For this example, I am interested in seeing the correlation between three variables: weight, mpg, and transmission. To add a third variable, I am going to add “color” to the aes argument and make it discrete so I can easily change the legend. I am also going to add labels to my plot using the labs() command. More of what you can add to this argument can be found using the command 
 
 ```?labs```
 
