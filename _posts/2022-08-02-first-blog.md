@@ -63,7 +63,7 @@ Now let's do a real example from the mtcars dataset! For this example, I am inte
 
 This is what my code looks like:
 
-``` code ```
+```ggplot(data = mtcars, mapping = aes(x = wt, y = mpg, color = factor(am))) + geom_point() + scale_color_discrete(name = 'Transmission', labels = c('Automatic', 'Manual')) + labs(x = 'Weight (1000 lbs)', y = 'Miles per Gallon', title = 'Cars')```
 
 This code will result in the plot:
 
