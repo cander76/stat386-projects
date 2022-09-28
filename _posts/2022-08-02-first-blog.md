@@ -6,6 +6,7 @@ author: Caitlyn Anderson
 description: The basics of data visualization in RStudio.
 image: /assets/images/main photo.jpg
 ---
+# Why is data visualization so important?
 
 A crucial part of data science is data visualization. Sure, we can look at a large dataset and try to draw conclusions from just that, but it is much easier to be able to visualize what is happening in the data. This way we can easily pick out and identify obvious trends within the data. As for me, I am a visual learner, so it is always helpful to have some sort of graph to summarize data for me. One of the most efficient ways to carry out data visualization is by using ggplot in RStudio. 
 
