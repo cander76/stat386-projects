@@ -49,7 +49,7 @@ With any dataset, the way to format a ggplot command is to call the ggplot funct
 
 -geom_line (for continuous variables)
 
-More examples of formatting can be found here: data-visualization-2.1 (nyu-cdsc.github.io)
+More examples of formatting can be found [here](data-visualization-2.1 (nyu-cdsc.github.io))
 
 When you put this all together, this is what the basic format should look like:
 
