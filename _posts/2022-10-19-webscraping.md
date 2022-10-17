@@ -15,6 +15,8 @@ Do you ever find yourself scrolling online, wishing information was presented to
 
 Recently in my Python class, I was tasked with making a dataframe displaying the top 88 heist movies of all time (according to Rotten Tomatoes). This had me curious to see what Rotten Tomatoes believed to be the top movies of all time (not limited to a certain genre). I found a webpage that displayed the top 64 movies of all time, found [here](https://www.imdb.com/list/ls033935095/).
 
+<img src="https://github.com/cander76/stat386-projects/raw/main/assets/images/popcorn.jpg" width="500" />
+
 # Determining if scraping data is allowed
 
 In python, the library used for making requests and using APIs is the requests library. When we use functions in this library, it is easy to tell what is and what is not okay to scrape. For this particular data, I used the code: 
