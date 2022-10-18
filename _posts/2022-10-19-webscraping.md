@@ -55,7 +55,7 @@ As you can see, it's pretty overwhelming and messy. However, lets say I am inter
 
 <img src="https://github.com/cander76/stat386-projects/raw/main/assets/images/genre python example.png" width="600" />
 
-I repeated this process for each of my desire variables (title, rating, star rating, runtime, and year)
+I repeated this process for each of my desired variables (title, rating, star rating, runtime, and year).
 
 # Putting it all together
 
