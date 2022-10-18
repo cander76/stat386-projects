@@ -7,7 +7,7 @@ description: Making a easy-to-read dataset in Pandas through webscraping and Bea
 image: /assets/images/movie.jpg
 ---
  
-# What is the purpose of web scraping into Python?
+# Introduction: What is the purpose of web scraping into Python?
 
 Do you ever find yourself scrolling online, wishing information was presented to you in a more efficient way? Do you ever want certain data to be displayed to you immediately, but you have to scroll through a bunch of unnecessary information? Or maybe you want to easily interpret or visualize certain data, but you are restricted to what is given to you. I know I have experienced each of these frustrations throughout my life. Luckily, because of Python and some of the libraries it contains, we are able to take certain data from the internet and put it into a neat, easy-to-read data frame. With this knowledge, many doors are opened to data analysis and visualization. 
 
