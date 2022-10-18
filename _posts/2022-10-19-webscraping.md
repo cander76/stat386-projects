@@ -51,7 +51,7 @@ Another way to pull information from a website is through looking at the raw cod
 
 <img src="https://github.com/cander76/stat386-projects/raw/main/assets/images/genre.png" width="600" />
 
-As you can see, it's pretty overwhelming and messy. However, lets say I am interested in extracting the genre from each film. I can then hover over a genre for one of the films, and the inspect feature will highlight the desired tags/class (as seen above). For genre, we see that “class = genre”. With this knowledge, I was able to use the soup.findall() function as seen below:
+As you can see, it's pretty overwhelming and messy. However, lets say I am interested in extracting the genre from each film. I can then hover over a genre for one of the films, and the inspect feature will highlight the desired tags/class (as seen above). For genre, we see that “class = genre”. With this knowledge, I was able to use the find_all() function as seen below:
 
 <img src="https://github.com/cander76/stat386-projects/raw/main/assets/images/genre python example.png" width="600" />
 
